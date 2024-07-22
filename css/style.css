@@ -31,7 +31,47 @@ font-family: 'Playfair Display', serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
+.btn {
+    display: block;
+    margin:50px auto;
+    width: fit-content;
+    border: 1px solid #000000;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000000;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #000000;
+    text-decoration-color: #ffffff;
+}
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
 
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
 
 /* typography
 ==================================================*/
@@ -339,7 +379,7 @@ a.active {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #425BB5;
+    color: #4d63b3;
     font-size: 16px;
     font-weight: bold
 }
@@ -434,6 +474,7 @@ a.active {
     -o-transition: box-shadow 0.5s ease-in 0.1s;
     -webkit-transition: box-shadow 0.5s ease-in;
     -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
     -webkit-transition: box-shadow 0.5s ease-in 0.1s;
     transition: box-shadow 0.5s ease-in 0.1s;
     color: white;
@@ -480,7 +521,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #000000;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -503,7 +544,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: #000000;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -538,9 +579,9 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #ffffff;
     padding: 5px 20px;
-    color: #fff;
+    color: #000000;
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
