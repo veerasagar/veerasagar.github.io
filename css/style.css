@@ -23,7 +23,7 @@
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #000000;
+    background: #9b9b9b;
     text-decoration-color: #ffffff;
 }
 footer {
